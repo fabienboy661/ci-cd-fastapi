@@ -48,7 +48,7 @@ jobs:
       run: docker build -t ci-cd-fastapi .
 
     - name: Tag image
-      run: docker tag cdi-cd fabien123/ci-cd-fastapi:latest
+      run: docker tag ci-cd-fastapi fabien123/ci-cd-fastapi:latest
 
     - name: Push to Dockerhub
       run: docker push fabien123/ci-cd-fastapi:latest
