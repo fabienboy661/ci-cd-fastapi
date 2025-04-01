@@ -25,6 +25,6 @@ jobs:
       run: docker rm -f ci-cd-fastapi || true
       
     - name: Run Docker Container
-      run: docker run -d -p 8080:8080 --name cdi-cd-container fabien123/ci-cd-fastapi
+      run: docker run -d -p 8080:8080 --name ci-cd-fastapi fabien123/ci-cd-fastapi
 
     
