@@ -29,13 +29,12 @@ handler = Mangum(app)
 
 @app.get("/")
 async def root():
-    return {"message": "CI/CD with Github Actions to EC2!"}
+    return {"message": "CI/CD with Github Actions to EC2!!"}
 
 
 @app.get("/random-book")
 async def random_book():
     return random.choice(BOOKS)
-
 
 @app.get("/list-books")
 async def list_books():
