@@ -1,3 +1,4 @@
+# CI avant CD, test, build docker image et tag image
 name: FastApi CI
 
 on:
